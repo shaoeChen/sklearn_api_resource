@@ -1,13 +1,16 @@
 # Scikit-Learn sklearn.preprocessing.StandardScaler
 ###### tags: `scikit-learn` `sklearn` `python` `machine learning` `preprocessing`
 >[name=Marty.chen ] [time=Fri, Jan 3, 2020 5:32 PM]
->以下範例資料皆來自官方文件
+>以下範例資料皆來自官方文件 
+>[HackMD hyperlink](https://hackmd.io/@shaoeChen/HyEVuY21L)
+
 :::danger
 官方文件：
 * [API](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler)
 * [範例](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)
 * [Z-Score](http://terms.naer.edu.tw/detail/1315812/?index=1)
 :::
+
 ## 說明
 實作機器學習的時候，特徵的前置預處理是必經過程，因為每一個特徵有它自己的值域與單位，有大有小，沒有在相同的空間範圍內，這會造成擁有較大值域的特徵對模型的影響過大。舉例來說，一棟屋子，三房兩廳二衛浴，屋齡30年，每坪20,000元，郵政編碼200。每坪20,000元，這個值域相對其它特徵來說都過大了，這對模型會有不良的影響。
 
